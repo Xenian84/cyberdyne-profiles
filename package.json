@@ -1,0 +1,59 @@
+{
+  "name": "cyberdyne-profiles",
+  "version": "1.0.0",
+  "description": "Encrypted user reputation profiles on IPFS with zero-knowledge architecture",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cyberdyne": "./bin/cyberdyne.js"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./schema": "./lib/schema.js",
+    "./manager": "./lib/manager.js",
+    "./toon": "./lib/toon.js",
+    "./crypto": "./lib/crypto.js",
+    "./storage": "./lib/storage.js",
+    "./state": "./lib/state.js",
+    "./plugins/openclaw": "./plugins/openclaw/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ipfs",
+    "encryption",
+    "reputation",
+    "profiles",
+    "telegram",
+    "openclaw",
+    "x1",
+    "blockchain",
+    "zero-knowledge",
+    "privacy"
+  ],
+  "author": "Cyberdyne Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xenian84/cyberdyne-profiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xenian84/cyberdyne-profiles/issues"
+  },
+  "homepage": "https://github.com/Xenian84/cyberdyne-profiles#readme",
+  "dependencies": {
+    "@noble/ed25519": "^2.0.0"
+  },
+  "peerDependencies": {
+    "aegismemory": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "aegismemory": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

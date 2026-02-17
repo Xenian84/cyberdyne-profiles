@@ -1,0 +1,21 @@
+{
+  "id": "cyberdyne-profiles",
+  "name": "Cyberdyne Profiles",
+  "version": "1.0.0",
+  "description": "Encrypted user reputation profiles on IPFS with zero-knowledge architecture",
+  "kind": "extension",
+  "entrypoint": "./index.js",
+  "author": "Cyberdyne Contributors",
+  "repository": "https://github.com/Xenian84/cyberdyne-profiles",
+  "license": "MIT",
+  "keywords": ["ipfs", "encryption", "profiles", "reputation", "telegram", "openclaw", "x1"],
+  "openclaw": {
+    "minVersion": "1.0.0",
+    "tools": [
+      "cyberdyne_create_profile",
+      "cyberdyne_get_profile",
+      "cyberdyne_update_profile",
+      "cyberdyne_list_profiles"
+    ]
+  }
+}
