@@ -30,9 +30,3 @@ export * as state from './lib/state.js';
 
 // Version
 export const VERSION = '1.0.0';
-
-// Default export
-export default {
-  ProfileManager,
-  VERSION
-};
